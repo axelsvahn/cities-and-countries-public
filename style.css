@@ -1,0 +1,163 @@
+body {
+/* background-color:rgb(210, 220, 223); */
+background-image: url("imgs/background.jpg");
+}
+
+#countries {
+
+    /* flexbox */
+    display:flex; 
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* flexbox */
+    
+    padding: 1em;
+    width: auto;
+    margin: auto;
+    background-color:rgba(192, 197, 195, 0.616);
+}
+
+#heading {
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.767);
+    color:white;
+    padding: 1em;
+ }
+
+.cityDiv {
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:rgba(229, 226, 226, 0.486);
+}
+
+#visitedDiv, #countDiv, #eraseDiv {
+
+    /* flexbox */
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    /* flexbox */
+
+    margin: 2rem;
+    margin-left: 30%;
+    padding-top: 1rem;
+    margin-right: 30%;
+}
+
+#visitedDiv, #countDiv {
+    background-color:rgba(232, 235, 236, 0.589);
+    font-size:1.2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;  
+}
+
+span {
+    color:blue;
+    font-size:1.5rem;
+}
+
+#cityInfo {
+
+    /* flexbox */
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    text-align: center;
+    flex-wrap: wrap; 
+    /* flexbox */
+    
+    padding: 2rem; 
+    color: black;
+    font-size:1.1em;
+    background-color:rgba(232, 235, 236, 0.493);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top:3rem;
+    font-size:1.3rem;
+}
+
+.cityBut{
+    border: none;
+    color: black;
+    background-color:rgba(232, 235, 236, 0.376);
+    font-size: 1.8rem;
+    border-radius:10px;
+    border: 1px solid
+    
+}
+
+.countryBtn{
+    font-size: 2rem; 
+}
+
+#visitBut{
+    margin: 1rem;
+}
+
+.cityBut:hover{
+    background-color:rgba(0, 123, 255, 0.623);  
+    color: white;
+}
+
+
+  /* Media queries */
+
+@media only screen and (max-width: 576px) {
+    
+    #cityInfo {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+    }
+  
+    .countryBtn{
+        font-size: 1rem; 
+        margin-top: 0.2rem;
+    }
+
+    #eraseBut{
+        font-size: 1rem; 
+    }
+
+    .cityDiv{
+
+        flex-direction: column;
+        justify-content: right;
+        align-items: normal;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 20%;
+        flex-wrap: wrap;
+        background-color:rgba(229, 226, 226, 0);
+    }
+
+    .cityBut{
+
+        font-size: 1rem; 
+        background-color:rgba(229, 226, 226, 0.698);
+    }
+
+    #countryButVisit{
+        margin-top: 0.2rem;
+    }
+
+    h3, h4{
+        font-size:1.2rem;
+    }
+
+    #visitedDiv, #countDiv {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    }  
