@@ -21,4 +21,4 @@ SPA using the Fetch API and JSON.
 
 ## 4. How to use
 
-Check it out at https://axelsvahn.github.io/cities-and-countries-public/
+Check it out at https://axelsvahn.github.io/cities-and-countries-public/ (Swedish-language interface)
