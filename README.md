@@ -1,5 +1,5 @@
 # Städer och länder (Cities and Countries)
-Single Page Application in Bootstrap/Vanilla JS
+Single Page Application with Bootstrap/Vanilla JS
 
 ## 1. Background
 
@@ -21,4 +21,4 @@ SPA using the Fetch API and JSON.
 
 ## 4. How to use
 
-Check it out at (address)
+Check it out at https://axelsvahn.github.io/cities-and-countries-public/
